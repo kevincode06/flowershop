@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <nav>
+                <h1>Flower Shop</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>  
+                    <li><a href="flowers.html">Flowers</a></li>
+                    <li><a href="hampers&gifts.html">Hampers & Gifts</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="mycart.html">My Cart</a></li>
+            </nav><br>
+            <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <div class="cart-item">
+            <div class="cart-info">
+                <img src="./image/Time For Wine.jpeg" alt="Time For Wine">
+                <div class="details">
+                    <p>Time For Wine</p>
+                    <small>Price: R1,235</small>
+                    <a href="#">Remove</a>
+                </div>
+            </div>
+            <div class="cart-quantity">
+                <input type="number" value="1" min="1">
+            </div>
+            <div class="cart-total">
+                R1,235
+            </div>
+        </div>
+        <div class="cart-item">
+            <div class="cart-info">
+                <img src="./image/Orange Roses.jpeg" alt="Orange Roses">
+                <div class="details">
+                    <p>Orange Roses</p>
+                    <small>Price: R495</small>
+                    <a href="#">Remove</a>
+                </div>
+            </div>
+            <div class="cart-quantity">
+                <input type="number" value="1" min="1">
+            </div>
+            <div class="cart-total">
+                R990
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <p>Subtotal: <span>R 2225</span></p>
+            <p>Tax: <span>R333,75</span></p>
+            <p>Total: <span>R2558.75</span></p>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Address</h1>
+        <form action="#" method="post" class="address-form">
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="addressLine1">Address Line 1</label>
+                <input type="text" id="addressLine1" name="addressLine1" required>
+            </div>
+            <div class="form-group">
+                <label for="addressLine2">Address Line 2</label>
+                <input type="text" id="addressLine2" name="addressLine2">
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="state">State/Province</label>
+                <input type="text" id="state" name="state" required>
+            </div>
+            <div class="form-group">
+                <label for="zip">ZIP/Postal Code</label>
+                <input type="text" id="zip" name="zip" required>
+            </div>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </form>
+    </div><br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We are a company dedicated to providing the best services.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>  
+                    <li><a href="flowers.html">Flowers</a></li>
+                    <li><a href="hampers&gifts.html">Hampers & Gifts</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="">My Cart</a></li></ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@flowershop.com</p>
+                <p>Phone: +27 78 361 3731</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Your Company | Designed by kevin
+        </div>
+    </footer>
+        </section>
+    </body>
+    </html>
